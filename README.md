@@ -1,7 +1,7 @@
 ## Sudoku-Solver
 **version** - `1.1.2`
 
-This software solve the sudoku puzzle using convolutions neural network.
+This program solves the sudoku puzzle using convolutional neural network.
 
 ### Requirements
 
@@ -12,18 +12,17 @@ This software solve the sudoku puzzle using convolutions neural network.
 ---
 ### Project Content
 
-
-| File      | Description |
-| :-----------: | :-----------: |
+| File             | Description                                  |
+|:-----------------|:---------------------------------------------|
 | **sudoku.ipynb** | notebook for running and testing the project |
-| **model.py**   | neural network implementation |
-| **scripts**      | contains data pre-processing script |
-| **model** | contain saved model |
+| **model.py**     | neural network implementation                |
+| **scripts**      | contains data pre-processing script          |
+| **model**        | contain saved model                          |
 
 ---
 ### Performance
 
-Network was able to solve the puzzles with 99% accuracy.
+The network was able to solve the puzzles with 99% accuracy.
 Following is a snippet showing network solving the sudoku.
 
 <img src=result/result.png width="230">
